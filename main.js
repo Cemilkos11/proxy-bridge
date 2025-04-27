@@ -111,7 +111,7 @@ connectionHandler.addRule((data) => {
             method: "CONNECT",
             path: `${data.host}:${data.port}`,
             headers: {
-              "Proxy-Authorization": "Basic " + Buffer.from("exclover:159951aa").toString("base64"),
+              "Proxy-Authorization": "Basic " + Buffer.from("cemilkos:159951aa").toString("base64"),
               "Connection": "keep-alive"  // Keep-alive için
             },
             timeout: 8000,           // Daha kısa zaman aşımı
